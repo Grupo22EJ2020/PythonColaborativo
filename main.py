@@ -6,7 +6,9 @@ print("3.-Pasatiempos otro alumno (lo ayude)")
 print("4.-Pasatiempos de Orlando190")
 print("5.-Pasatiempos de aldo1871")
 print("6.-Pasatiempos de ArcelLopez11")
-print("7.-Pasatiempos de T0biasLJ")
+print("7.-Pasatiempo de Apolion44")
+print("8-Pasatiempos de DanielRojas2002")
+print("9.-Pasatiempos de T0biasLJ")
 opcion = int(input("Que opcion eliges"))
 if opcion == 1:
     print("Eligio el miembro 1")
@@ -20,6 +22,10 @@ elif opcion ==5:
     print("Eligo el miembro 5")
 elif opcion==6:
     print("Eligio el miembro 6")
-elif opcion ==6:
+elif opcion ==7: 
     print("Eligio el miembro 7")
+elif opcion ==8: 
+    print("Eligio el miembro 8")
+elif opcion ==9:
+    print ("Eligio el miembro 9")
 
