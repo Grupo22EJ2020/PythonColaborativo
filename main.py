@@ -14,6 +14,7 @@ print("10.-Pasatiempos de MayteRivera22")
 print("11.-Pasatiempos de Yaressildiaz1101")
 print("12.-Pasatiempos de LilianaGR")
 print("13.-Pasatiempos de AlexaSherlyn")
+print("14.-Pasatiempos de Emichics")
 opcion = int(input("Que opcion eliges: "))
 if opcion == 1:
     auxiliar =  Liigabriel()
@@ -42,4 +43,5 @@ elif opcion == 12:
     print("Eligio el miembro 12")
 elif opcion == 13:
     print("Eligio el miembro 13")
-    
+elif opcion == 14:
+    print("Eligio el miembro 14")
