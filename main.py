@@ -1,15 +1,6 @@
-<<<<<<< HEAD
-from arcellopez11 import ArcelLopez11 
+from arcellopez11 import ArcelLopez11
+ 
 print("Bienvenido al programa")
-=======
-from liigabriel import Liigabriel 
-<<<<<<< HEAD
-from emichics import Emichics
-print("Bienvenido al programa")
-=======
-from alexaSherlyn import AlexaSherlyn
-from bryan20nietosi import Bryan20nietosi
->>>>>>> 538b6688ab1b34c1f88ae3e538e88a3f73c60973
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
 print("2.-Pasatiempos de bryan20nietosi")
@@ -24,14 +15,11 @@ print("10.-Pasatiempos de MayteRivera22")
 print("11.-Pasatiempos de Yaressildiaz1101")
 print("12.-Pasatiempos de LilianaGR")
 print("13.-Pasatiempos de AlexaSherlyn")
-print("14.-Pasatiempos de Emichics")
 opcion = int(input("Que opcion eliges: "))
 if opcion == 1:
-    auxiliar =  Liigabriel()
-    auxiliar.imprimirPasatiempos()      
-elif opcion == 2:
-    muestra = Bryan20nietosi()
-    muestra.PasatiemposBryan()
+    print("Eligio el miembro 1")
+elif opcion == 2: 
+    print("Eligio el miembro 2")
 elif opcion == 3:
     print("Eligio otro alumno")
 elif opcion == 4:
@@ -55,8 +43,4 @@ elif opcion == 11:
 elif opcion == 12:
     print("Eligio el miembro 12")
 elif opcion == 13:
-    yo = AlexaSherlyn()
-    yo.imprimirPasatiempos()
-elif opcion == 14:
-    objeto = Emichics()
-    objeto.imprimirHobbies()
+    print("Eligio el miembro 13")
