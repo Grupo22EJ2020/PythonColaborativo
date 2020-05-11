@@ -1,6 +1,7 @@
 from arcellopez11 import ArcelLopez11
 from alexaSherlyn import AlexaSherlyn
 from bryan20nietosi import Bryan20nietosi
+from emichics import Emichics
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -16,6 +17,7 @@ print("10.-Pasatiempos de MayteRivera22")
 print("11.-Pasatiempos de Yaressildiaz1101")
 print("12.-Pasatiempos de LilianaGR")
 print("13.-Pasatiempos de AlexaSherlyn")
+print("14.-Pasatiempos de Emichics ")
 opcion = int(input("Que opcion eliges: "))
 if opcion == 1:
     print("Eligio el miembro 1")
@@ -47,3 +49,7 @@ elif opcion == 12:
 elif opcion == 13:
     yo = AlexaSherlyn()
     yo.imprimirPasatiempos()
+elif opcion == 14:
+    objeto = Emichics()
+    objeto.imprimirHobbies
+
