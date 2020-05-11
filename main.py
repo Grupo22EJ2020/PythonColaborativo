@@ -1,10 +1,6 @@
 from liigabriel import Liigabriel 
-<<<<<<< HEAD
-from bryan20nietosi import Bryan20nietosi
-=======
 from alexaSherlyn import AlexaSherlyn
->>>>>>> 5b7f4b89a1af5d805a70b93ffc866fd21522fb81
-print("Bienvenido al programa")
+from bryan20nietosi import Bryan20nietosi
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
 print("2.-Pasatiempos de bryan20nietosi")
