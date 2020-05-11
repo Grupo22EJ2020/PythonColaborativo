@@ -1,4 +1,5 @@
 from liigabriel import Liigabriel 
+from bryan20nietosi import Bryan20nietosi
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -20,7 +21,8 @@ if opcion == 1:
     auxiliar =  Liigabriel()
     auxiliar.imprimirPasatiempos()      
 elif opcion == 2:
-    print("Eligio el miembro 2")
+    muestra = Bryan20nietosi()
+    muestra.PasatiemposBryan()
 elif opcion == 3:
     print("Eligio otro alumno")
 elif opcion == 4:
