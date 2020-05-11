@@ -3,6 +3,10 @@ from arcellopez11 import ArcelLopez11
 print("Bienvenido al programa")
 =======
 from liigabriel import Liigabriel 
+<<<<<<< HEAD
+from emichics import Emichics
+print("Bienvenido al programa")
+=======
 from alexaSherlyn import AlexaSherlyn
 from bryan20nietosi import Bryan20nietosi
 >>>>>>> 538b6688ab1b34c1f88ae3e538e88a3f73c60973
@@ -54,4 +58,5 @@ elif opcion == 13:
     yo = AlexaSherlyn()
     yo.imprimirPasatiempos()
 elif opcion == 14:
-    print("Eligio el miembro 14")
+    objeto = Emichics()
+    objeto.imprimirHobbies()
