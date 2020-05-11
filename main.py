@@ -1,5 +1,6 @@
-from arcellopez11 import ArcelLopez11
-from t0biaslj import T0biaslj 
+from alexaSherlyn import AlexaSherlyn
+from bryan20nietosi import Bryan20nietosi
+from t0biaslj import T0biaslj
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -19,7 +20,8 @@ opcion = int(input("Que opcion eliges: "))
 if opcion == 1:
     print("Eligio el miembro 1")
 elif opcion == 2: 
-    print("Eligio el miembro 2")
+    muestra= Bryan20nietosi()
+    muestra.PasatiemposBryan()
 elif opcion == 3:
     print("Eligio otro alumno")
 elif opcion == 4:
@@ -27,8 +29,6 @@ elif opcion == 4:
 elif opcion == 5:
     print("Eligo el miembro 5")
 elif opcion == 6:
-    ayuda = ArcelLopez11()
-    ayuda.imprimirPasatiempos()
     print("Eligio el miembro 6")
 elif opcion == 7: 
     print("Eligio el miembro 7")
@@ -44,4 +44,5 @@ elif opcion == 11:
 elif opcion == 12:
     print("Eligio el miembro 12")
 elif opcion == 13:
-    print("Eligio el miembro 13")
+    yo = AlexaSherlyn()
+    yo.imprimirPasatiempos()
