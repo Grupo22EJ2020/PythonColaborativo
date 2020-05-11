@@ -1,5 +1,5 @@
 from arcellopez11 import ArcelLopez11
- 
+from t0biaslj import T0biaslj 
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -35,7 +35,8 @@ elif opcion == 7:
 elif opcion == 8: 
     print("Eligio el miembro 8")
 elif opcion == 9:
-    print ("Eligio el miembro 9")
+    info= T0biaslj
+    info.mispasatiempos
 elif opcion == 10:
     print("Eligio el miembro 10")
 elif opcion == 11:
