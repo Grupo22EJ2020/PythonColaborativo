@@ -50,5 +50,5 @@ elif opcion == 13:
     yo.imprimirPasatiempos()
 elif opcion == 14:
     objeto = Emichics()
-    objeto.imprimirHobbies
+    objeto.imprimirHobbies()
 
