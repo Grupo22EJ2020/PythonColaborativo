@@ -1,4 +1,5 @@
 from liigabriel import Liigabriel 
+from emichics import Emichics
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -44,4 +45,5 @@ elif opcion == 12:
 elif opcion == 13:
     print("Eligio el miembro 13")
 elif opcion == 14:
-    print("Eligio el miembro 14")
+    objeto = Emichics()
+    objeto.imprimirHobbies()
