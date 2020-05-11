@@ -1,5 +1,5 @@
 from arcellopez11 import ArcelLopez11
- 
+from alexaSherlyn import AlexaSherlyn
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -43,4 +43,5 @@ elif opcion == 11:
 elif opcion == 12:
     print("Eligio el miembro 12")
 elif opcion == 13:
-    print("Eligio el miembro 13")
+    yo = AlexaSherlyn()
+    yo.imprimirPasatiempos()
