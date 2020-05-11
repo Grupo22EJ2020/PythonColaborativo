@@ -55,6 +55,6 @@ elif opcion == 14:
     print("Eligio el miembro 14")
     yo = AlexaSherlyn()
     yo.imprimirPasatiempos()
-elif opcion == 14:
+elif opcion == 15:
     objeto = Emichics()
     objeto.imprimirHobbies()
