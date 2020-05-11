@@ -1,3 +1,4 @@
+from appolion44 import Appolion44
 from liigabriel import Liigabriel 
 print("Bienvenido al programa")
 print("Personas de la organizacion")
@@ -30,7 +31,8 @@ elif opcion == 5:
 elif opcion == 6:
     print("Eligio el miembro 6")
 elif opcion == 7: 
-    print("Eligio el miembro 7")
+    showPasatiempos = Appolion44() 
+    showPasatiempos.mostrarPasatiempos() 
 elif opcion == 8: 
     print("Eligio el miembro 8")
 elif opcion == 9:
