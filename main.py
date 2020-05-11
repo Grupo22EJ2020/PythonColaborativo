@@ -1,3 +1,4 @@
+from arcellopez11 import ArcelLopez11 
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -25,6 +26,8 @@ elif opcion == 4:
 elif opcion == 5:
     print("Eligo el miembro 5")
 elif opcion == 6:
+    ayuda = ArcelLopez11()
+    ayuda.imprimirPasatiempos()
     print("Eligio el miembro 6")
 elif opcion == 7: 
     print("Eligio el miembro 7")
