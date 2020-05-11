@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 from appolion44 import Appolion44
 from liigabriel import Liigabriel 
-=======
 from alexaSherlyn import AlexaSherlyn
 from bryan20nietosi import Bryan20nietosi
 from emichics import Emichics
 from t0biaslj import T0biaslj
->>>>>>> 017cf93e54cd05c613ea48a2f51cc4f34e62267f
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -22,11 +19,8 @@ print("10.-Pasatiempos de MayteRivera22")
 print("11.-Pasatiempos de Yaressildiaz1101")
 print("12.-Pasatiempos de LilianaGR")
 print("13.-Pasatiempos de AlexaSherlyn")
-<<<<<<< HEAD
 print("14.-Pasatiempos de Emichics")
-=======
 print("14.-Pasatiempos de Emichics ")
->>>>>>> 017cf93e54cd05c613ea48a2f51cc4f34e62267f
 opcion = int(input("Que opcion eliges: "))
 if opcion == 1:
     auxiliar =  Liigabriel()
@@ -56,15 +50,11 @@ elif opcion == 11:
 elif opcion == 12:
     print("Eligio el miembro 12")
 elif opcion == 13:
-<<<<<<< HEAD
     print("Eligio el miembro 13")
 elif opcion == 14:
     print("Eligio el miembro 14")
-=======
     yo = AlexaSherlyn()
     yo.imprimirPasatiempos()
 elif opcion == 14:
     objeto = Emichics()
     objeto.imprimirHobbies()
-
->>>>>>> 017cf93e54cd05c613ea48a2f51cc4f34e62267f
