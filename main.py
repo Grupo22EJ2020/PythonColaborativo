@@ -1,3 +1,4 @@
+from liigabriel import Liigabriel 
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -15,7 +16,8 @@ print("12.-Pasatiempos de LilianaGR")
 print("13.-Pasatiempos de AlexaSherlyn")
 opcion = int(input("Que opcion eliges: "))
 if opcion == 1:
-    print("Eligio el miembro 1")
+    auxiliar =  Liigabriel()
+    auxiliar.imprimirPasatiempos()      
 elif opcion == 2:
     print("Eligio el miembro 2")
 elif opcion == 3:
