@@ -26,7 +26,8 @@ if opcion == 1:
     auxiliar =  Liigabriel()
     auxiliar.imprimirPasatiempos()      
 elif opcion == 2:
-    print("Eligio el miembro 2")
+    muestra= Bryan20nietosi()
+    muestra.PasatiemposBryan()
 elif opcion == 3:
     print("Eligio otro alumno")
 elif opcion == 4:
