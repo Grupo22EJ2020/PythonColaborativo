@@ -1,9 +1,8 @@
-from appolion44 import Appolion44
-from liigabriel import Liigabriel 
 from alexaSherlyn import AlexaSherlyn
 from bryan20nietosi import Bryan20nietosi
 from emichics import Emichics
 from t0biaslj import T0biaslj
+from DanielRojas2002 import danielRojas2002
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -19,13 +18,11 @@ print("10.-Pasatiempos de MayteRivera22")
 print("11.-Pasatiempos de Yaressildiaz1101")
 print("12.-Pasatiempos de LilianaGR")
 print("13.-Pasatiempos de AlexaSherlyn")
-print("14.-Pasatiempos de Emichics")
 print("14.-Pasatiempos de Emichics ")
 opcion = int(input("Que opcion eliges: "))
 if opcion == 1:
-    auxiliar =  Liigabriel()
-    auxiliar.imprimirPasatiempos()      
-elif opcion == 2:
+    print("Eligio el miembro 1")
+elif opcion == 2: 
     muestra= Bryan20nietosi()
     muestra.PasatiemposBryan()
 elif opcion == 3:
@@ -37,10 +34,10 @@ elif opcion == 5:
 elif opcion == 6:
     print("Eligio el miembro 6")
 elif opcion == 7: 
-    showPasatiempos = Appolion44() 
-    showPasatiempos.mostrarPasatiempos() 
+    print("Eligio el miembro 7")
 elif opcion == 8: 
-    print("Eligio el miembro 8")
+    Info=danielRojas2002()
+    Info.ImprimirPasatiempo()
 elif opcion == 9:
     info= T0biaslj
     info.mispasatiempos
@@ -51,11 +48,9 @@ elif opcion == 11:
 elif opcion == 12:
     print("Eligio el miembro 12")
 elif opcion == 13:
-    print("Eligio el miembro 13")
-elif opcion == 14:
-    print("Eligio el miembro 14")
     yo = AlexaSherlyn()
     yo.imprimirPasatiempos()
-elif opcion == 15:
+elif opcion == 14:
     objeto = Emichics()
     objeto.imprimirHobbies()
+
