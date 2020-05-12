@@ -5,6 +5,7 @@ from bryan20nietosi import Bryan20nietosi
 from emichics import Emichics
 from t0biaslj import T0biaslj
 from DanielRojas2002 import danielRojas2002
+from orlando190 import Orlando190
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -31,7 +32,8 @@ elif opcion == 2:
 elif opcion == 3:
     print("Eligio otro alumno")
 elif opcion == 4:
-    print("Eligio el miembro 4")
+    orlapasatiempo = Orlando190()
+    orlapasatiempo.imprimirPasatiempos()
 elif opcion == 5:
     print("Eligo el miembro 5")
 elif opcion == 6:
