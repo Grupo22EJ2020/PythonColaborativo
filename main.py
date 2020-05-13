@@ -7,6 +7,7 @@ from t0biaslj import T0biaslj
 from DanielRojas2002 import danielRojas2002
 from orlando190 import Orlando190
 from aldo1871 import Aldo1871
+from yaressildiaz1101 import Yaressildiaz1101
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -52,7 +53,8 @@ elif opcion == 9:
 elif opcion == 10:
     print("Eligio el miembro 10")
 elif opcion == 11:
-    print("Eligio el miembro 11")
+    yaree =Yaressildiaz1101()
+    yaree.ImprimirPasatiempo
 elif opcion == 12:
     print("Eligio el miembro 12")
 elif opcion == 13:
