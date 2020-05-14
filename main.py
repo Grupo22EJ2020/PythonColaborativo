@@ -8,6 +8,7 @@ from DanielRojas2002 import danielRojas2002
 from orlando190 import Orlando190
 from aldo1871 import Aldo1871
 from yaressildiaz1101 import Yaressildiaz1101
+from lilianagr import Lilianagr
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -21,7 +22,7 @@ print("8-Pasatiempos de DanielRojas2002")
 print("9.-Pasatiempos de T0biasLJ")
 print("10.-Pasatiempos de MayteRivera22")
 print("11.-Pasatiempos de Yaressildiaz1101")
-print("12.-Pasatiempos de LilianaGR")
+print("12.-Pasatiempos de Lilianagr")
 print("13.-Pasatiempos de AlexaSherlyn")
 print("14.-Pasatiempos de Emichics ")
 opcion = int(input("Que opcion eliges: "))
@@ -56,7 +57,8 @@ elif opcion == 11:
     yaree =Yaressildiaz1101()
     yaree.ImprimirPasatiempo
 elif opcion == 12:
-    print("Eligio el miembro 12")
+    mostrar=Lilianagr()
+    mostrar.imprimirPasatiempos()
 elif opcion == 13:
     yo = AlexaSherlyn()
     yo.imprimirPasatiempos()
