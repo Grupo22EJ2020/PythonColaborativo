@@ -9,6 +9,7 @@ from orlando190 import Orlando190
 from aldo1871 import Aldo1871
 from yaressildiaz1101 import Yaressildiaz1101
 from lilianagr import Lilianagr
+from jairobtz import Jairobtz
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -67,7 +68,11 @@ elif opcion == 14:
     objeto = Emichics()
     objeto.imprimirHobbies()
 elif opcion == 15:
-    print ("Eligio el miembro 15")
+    print("Eligio el miembro 15")
+    
+
+    
+
 
 
 
