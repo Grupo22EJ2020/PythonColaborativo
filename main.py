@@ -11,6 +11,7 @@ from yaressildiaz1101 import Yaressildiaz1101
 from lilianagr import Lilianagr
 from jairobtz import Jairobtz 
 from mayelagzz import Mayelagzz
+from dairat02 import DairaT02
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -29,6 +30,7 @@ print("13.-Pasatiempos de AlexaSherlyn")
 print("14.-Pasatiempos de Emichics ")
 print("15.-Pasatiempos de Jairobtz")
 print("16.-Pasatiempos de mayelagzz")
+print("17.-Pasatiempos de DairaT02")
 opcion = int(input("Que opcion eliges: "))
 if opcion == 1:
     auxiliar = Liigabriel()
@@ -74,6 +76,9 @@ elif opcion == 15:
 elif opcion == 16:
     muestra = Mayelagzz()
     muestra.imprimirPasatiempos()
+elif opcion == 17:
+    Mostrar = DairaT02()
+    Mostrar.imprimirPasatiempos()
 
     
     
