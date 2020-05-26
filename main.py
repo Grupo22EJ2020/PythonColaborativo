@@ -69,6 +69,7 @@ elif opcion == 14:
     objeto.imprimirHobbies()
 elif opcion == 15:
     print("Eligio el miembro 15")
+
     
 
     
