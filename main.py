@@ -9,7 +9,8 @@ from orlando190 import Orlando190
 from aldo1871 import Aldo1871
 from yaressildiaz1101 import Yaressildiaz1101
 from lilianagr import Lilianagr
-from jairobtz import Jairobtz
+from jairobtz import Jairobtz 
+from mayelagzz import Mayelagzz
 print("Bienvenido al programa")
 print("Personas de la organizacion")
 print("1.-Pasatiempos de Liigabriel")
@@ -27,6 +28,7 @@ print("12.-Pasatiempos de Lilianagr")
 print("13.-Pasatiempos de AlexaSherlyn")
 print("14.-Pasatiempos de Emichics ")
 print("15.-Pasatiempos de Jairobtz")
+print("16.-Pasatiempos de mayelagzz")
 opcion = int(input("Que opcion eliges: "))
 if opcion == 1:
     auxiliar = Liigabriel()
@@ -69,6 +71,13 @@ elif opcion == 14:
     objeto.imprimirHobbies()
 elif opcion == 15:
     print("Eligio el miembro 15")
+elif opcion == 16:
+    muestra = Mayelagzz()
+    muestra.imprimirPasatiempos()
+
+    
+    
+    
 
     
 
