@@ -77,8 +77,8 @@ elif opcion == 16:
     muestra = Mayelagzz()
     muestra.imprimirPasatiempos()
 elif opcion == 17:
-    Mostrar = DairaT02()
-    Mostrar.imprimirPasatiempos()
+    Ver = DairaT02()
+    Ver.imprimirPasatiempos()
 
     
     
