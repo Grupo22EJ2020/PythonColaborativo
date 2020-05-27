@@ -90,7 +90,7 @@ elif opcion ==18:
     pt=ImprimirPasatiempos()
 elif opcion == 19:
     Vic = VictoriaA01()
-    Vic.imprimirPasatiempos()
+    Vic.imprimirmispasatiempos()
 elif opcion == 20:
     xp=ximenahdz()
     xp.imprimirPasatiempos()
