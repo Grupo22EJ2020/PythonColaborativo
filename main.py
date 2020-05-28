@@ -37,6 +37,7 @@ print("17.-Pasatiempos de DairaT02")
 print("18.-Pasatiempos de DavidAMtz")
 print("19.-Pasatiempos de VictoriaA01")
 print("20.-Pasatiempos de ximenahdz")
+print("21.- Pasatiempos de oucm2410")
 opcion = int(input("Que opcion eliges: "))
 if opcion == 1:
     auxiliar = Liigabriel()
@@ -94,6 +95,9 @@ elif opcion == 19:
 elif opcion == 20:
     xp=ximenahdz()
     xp.imprimirPasatiempos()
+elif opcion ==21:
+    u = oucm2410()
+    u.imprimirPasatiempos()
 
 
 
